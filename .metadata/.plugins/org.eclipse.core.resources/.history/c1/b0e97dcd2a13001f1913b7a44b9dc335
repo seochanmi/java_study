@@ -1,0 +1,13 @@
+package test.mypac;
+
+public class Rectangle {
+	public int r1;
+	public int r2;
+	
+	public void showArea() {
+		System.out.println(r1*r2);
+    Rectangle r1=new Rectangle();
+    Rectangle r2=new Rectangle();
+    
+	}
+}

@@ -1,0 +1,20 @@
+package test.main;
+
+import test.mypac.Apple;
+import test.mypac.FruitBox;
+import test.mypac.Melon;
+
+public class MainClass01 {
+	public static void main(String[] args) {
+		FruitBox<Apple> box=new FruitBox<Apple>();
+		
+		box.pack(new Apple());
+		Apple a1=box.unPack();
+
+		FruitBox<Melon> box2=new FruitBox<>(); //앞에 제너릭만 신경쓰면 된다. 뒤에 <>안에는 생략이 가능하다
+			
+		box2.pack(new Melon());
+		Melon m1 = box2.unPack();
+	}
+
+}

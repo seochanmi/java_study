@@ -1,0 +1,9 @@
+package test.mypac;
+
+public class Tank extends MyWeapon{
+	Tank t1= new Tank();
+	public void preparing2() {
+		System.out.println("탱크에 탈 준비를 합니다");
+	t1.preparing2(); 
+	}
+}

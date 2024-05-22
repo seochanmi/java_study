@@ -1,0 +1,30 @@
+package test.main;
+
+import test.mypac.MyWeapon;
+import test.mypac.Weapon;
+
+public class MainClassex01 {
+	
+	public static void main(String[] args) {
+class Gun extended Weapon;
+
+useWeapon(new MyWeapon());
+useWeapon(new gun());
+useWeapon(new tank()); }
+
+		public static void useWeapon(Weapon w) {
+			w.prepare();
+			w.attack();
+		}
+		
+		
+	}
+	
+			
+	
+	
+			
+
+	
+
+

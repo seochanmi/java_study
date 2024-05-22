@@ -1,0 +1,10 @@
+package test.mypac;
+
+public class Gun {
+
+	
+	public void preparing() {
+		System.out.println("총을 쏠 준비를 합니다");
+		g1.preparing();
+	}
+}

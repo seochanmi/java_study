@@ -1,0 +1,14 @@
+package test.main;
+
+import test.mypac.Weapon;
+
+public class MainClass01 {
+
+	public static void main(String[] args) {
+		//추상(abstract) 클래스로 객체를 생성할수 있을까?
+		Weapon w1=new Weapon() {
+			
+			
+	}
+
+}

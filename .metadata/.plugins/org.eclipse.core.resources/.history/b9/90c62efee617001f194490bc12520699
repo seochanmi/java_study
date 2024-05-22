@@ -1,0 +1,19 @@
+package test.main;
+
+import test.mypac.Apple;
+import test.mypac.FruitBox;
+import test.mypac.Melon;
+
+public class MainClass01 {
+	public static void main(String[] args) {
+		FruitBox box=new FruitBox();
+		box.pack(new Apple());
+		Apple a1=box.unPack();
+
+		FruitBox box2=new FruitBox();
+		
+		box2.pack(new Melon());
+		Melon m1 = box2.unPack();
+	}
+
+}

@@ -1,0 +1,37 @@
+package test.main;
+
+import test.mypac.MyWeapon;
+
+
+public class MainClassex01 {
+
+	public static void main(String[] args) {
+		class Gun extends MyWeapon {
+			Gun g1 = new Gun();
+			
+			MyWeapon p1 = g1;
+			
+				public void preparing() {
+					System.out.println("총을 쏠 준비를 합니다");
+					g1.preparing();
+				}
+				
+				Gun g1=null;
+				
+			class Tank extends MyWeapon {
+				
+			Tank t1= new Tank();
+			
+			MyWeapon p1=t1;
+			
+			public void preparing2() {
+				System.out.println("탱크에 탈 준비를 합니다");
+			
+			
+			
+		
+		
+
+	
+
+

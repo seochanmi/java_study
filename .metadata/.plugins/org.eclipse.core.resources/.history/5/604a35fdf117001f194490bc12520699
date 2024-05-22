@@ -1,0 +1,13 @@
+package test.main;
+
+import test.mypac.Calc;
+
+public class MainClassex01 {
+	public static void main(String[] args) {
+		
+Calc mul = (num3, num4) -> num3*num4;
+double result2= add.execute(40, 12);
+System.out.println("결과:"+result2);
+	}
+
+}

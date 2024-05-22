@@ -1,0 +1,15 @@
+package test.mypac;
+
+public class Rectangle {
+	public int r122;
+	public int r222;
+	
+	public void showArea() {
+		public area1= this.r122*this.r222;
+		System.out.println("넓이:"+area1);
+    Rectangle r12=new Rectangle();
+    r12.r1=18;
+    r12.r2=24;
+    r12.showArea();
+	}}
+	

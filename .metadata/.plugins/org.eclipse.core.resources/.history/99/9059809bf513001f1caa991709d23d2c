@@ -1,0 +1,17 @@
+package test.main;
+
+import java.util.Random;
+import java.util.stream.IntStream;
+
+public class MainClass05 {
+
+	public static void main(String[] args) {
+		// -10 ~ 10사이의 랜덤한 정수를 얻어내 보세요
+		Random ran=new Random();
+		IntStream ranNum3=ran.ints(-10, 10);
+		// 75 ~ 100 사이의 랜덤한 정수를 얻어내 보세요
+		
+		// 1 ~ 45 사이의 랜덤한 정수를 얻어내 보세요
+	}
+
+}
